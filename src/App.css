@@ -2,19 +2,18 @@
   align-items:left;
 }
 :root {
-  --color-primary: #1b1b32;
-  --color-secondary: #0a0a23;
+  --color-primary:#0a0a23;
+  --color-secondary:  #1b1b32;
+  --color-btn: #3b3b4f;
 }
 
 .container
 {
-  background-color: var(--color-primary);
-  width: 60%;
-  max-width: 500px;
-  min-width: 300px;
-  margin: 10% auto;
-  padding: 40px 30px;
-  justify-content: center;
+  
+  max-height: 550px;
+  width: 390px;
+  margin:  auto;
+  padding: 20px 25px;
   color: white;
   border-radius: 10px;
 
@@ -23,17 +22,17 @@
 button
 {
   color: white;
-  background-color: var(--color-secondary);
+  border: 1px solid white;
+  background-color:var(--color-btn);
   padding: 5px 15px;
   margin-inline: 7px;
-}
-button:hover
-{
-  border: 0.5px solid burlywood;
 }
 ul
 {
   list-style: none;
+ border: 1px solid var(--color-btn);
+ border-radius: 10px;
+ padding: 10px;
 }
 .my--music
 {
@@ -41,7 +40,7 @@ ul
 }
 .desc
 {
-  padding:10px;
-  text-align: center;
+  padding:5px;
+  text-align: left;
   color: burlywood;
 }
