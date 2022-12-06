@@ -6,11 +6,13 @@ const myMusic= {
     Rock:[
       {
         artist:"Band: Pink Floyd",
-        album:"Album: The Wall"
+        album:"Album: The Wall",
+        song:"The songs is The Thin Face"
       },
       {
         artist:"Band: The Beatles",
-        album:"Album: Abbey Road"
+        album:"Album: Abbey Road",
+        song:"The songs is something"
       },
 
       {
@@ -21,11 +23,13 @@ const myMusic= {
     Hiphop:[
       {
         artist:"Artist: Eminem",
-        album:"Album: The Eminem Show"
+        album:"Album: The Eminem Show",
+        song:"The songs is criminal"
       },
       {
         artist:"Artist: Jay-Z",
-        album:"Album: The Blueprint"
+        album:"Album: The Blueprint",
+        song:"The songs is izzo"
       },
       {
         ratings:"⭐3.5/5"
@@ -35,11 +39,13 @@ const myMusic= {
     Pop:[
       {
         artist:"Artist: Michael Jackson",
-        album:"Album: Thriller"
+        album:"Album: Thriller",
+        song:"The songs is Thriller"
       },
       {
         artist:"Artist: Mariah Carey",
-        album:"Album: Daydream"
+        album:"Album: Daydream",
+        song:"The songs is Fantasy"
       },
       {
         ratings:"⭐4.5/5"
@@ -77,6 +83,7 @@ export default function Music()
                     return <ul className="list--items" >
                         <li >{items.artist}</li>
                         <li  >{items.album}</li>
+                        <li  >{items.song}</li>
                         <div  >{items.ratings}</div>
                     </ul>
                 })
