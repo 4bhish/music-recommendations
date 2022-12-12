@@ -26,7 +26,7 @@ To use Music Recommendations App :
 
 This project is hosted on web using netlify.
 
-![Screenshot (21)](https://user-images.githubusercontent.com/108976136/207036867-e6e85a81-8ed0-4d57-b35f-e95e1e9f1677.png)
+![Screenshot (22)](https://user-images.githubusercontent.com/108976136/207121109-41b6df2e-e253-455b-b2b7-3d542b65e267.png)
 
 Don't forget to leave a ⭐ if you found this useful
 
